@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/rahulsharma1919/LeetCoding/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
+| [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rahulsharma1919/LeetCoding/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Sliding Window
