@@ -15,6 +15,6 @@ public:
                 return {a, b};
             }
         }
-        return {}; // just for safety, problem guarantees solution exists
+        return {};
     }
 };
