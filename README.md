@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rahulsharma1919/LeetCoding/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/3279-alice-and-bob-playing-flower-game) |
@@ -133,4 +135,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rahulsharma1919/LeetCoding/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+## Stack
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
