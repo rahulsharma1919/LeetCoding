@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
 | [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0120-triangle) |
+| [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Brainteaser
@@ -189,11 +191,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [3827-implement-router](https://github.com/rahulsharma1919/LeetCoding/tree/master/3827-implement-router) |
 ## Two Pointers
 |  |
 | ------- |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
+| [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 <!---LeetCode Topics End-->
