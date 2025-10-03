@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0120-triangle) |
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
+| [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/rahulsharma1919/LeetCoding/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
+| [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rahulsharma1919/LeetCoding/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -134,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
 | [2023-design-movie-rental-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
@@ -220,4 +223,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 <!---LeetCode Topics End-->
