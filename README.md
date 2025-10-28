@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2324-find-triangular-sum-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3336-water-bottles-ii) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Memoization
@@ -307,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [3616-make-array-elements-equal-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
