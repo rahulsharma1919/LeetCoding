@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/rahulsharma1919/LeetCoding/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -199,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rahulsharma1919/LeetCoding/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Heap (Priority Queue)
@@ -237,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3827-implement-router](https://github.com/rahulsharma1919/LeetCoding/tree/master/3827-implement-router) |
 ## String
 |  |
@@ -299,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1612-avoid-flood-in-the-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/1612-avoid-flood-in-the-city) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
@@ -338,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
