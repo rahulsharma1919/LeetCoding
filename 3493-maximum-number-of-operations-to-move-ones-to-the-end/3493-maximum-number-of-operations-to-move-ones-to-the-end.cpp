@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxOperations(string s) {
-        long long ans = 0;   // use long long to be safe for large counts
+        long long ans = 0;
         long long ones = 0;
         int n = s.size();
         for (int i = 0; i < n; ++i) {
