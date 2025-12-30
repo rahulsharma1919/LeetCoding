@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [0944-delete-columns-to-make-sorted](https://github.com/rahulsharma1919/LeetCoding/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
+| [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/rahulsharma1919/LeetCoding/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
+| [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -245,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
+| [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
