@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
