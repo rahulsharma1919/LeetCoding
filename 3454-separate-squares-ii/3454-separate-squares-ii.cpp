@@ -3,23 +3,19 @@ public:
     struct Event {
         long long y;
         long long x1, x2;
-        int type; // +1 add, -1 remove
+        int type;
     };
-
     double separateSquares(vector<vector<int>>& squares) {
         vector<Event> events;
         long long totalArea = 0;
-
         for (auto& s : squares) {
             long long x = s[0], y = s[1], l = s[2];
             events.push_back({y, x, x + l, +1});
             events.push_back({y + l, x, x + l, -1});
         }
-
         sort(events.begin(), events.end(),
              [](const Event& a, const Event& b) { return a.y < b.y; });
 
-        // Active x-intervals
         multiset<pair<long long, long long>> active;
 
         auto unionWidth = [&]() {
@@ -39,12 +35,10 @@ public:
             res += max(0LL, curR - curL);
             return res;
         };
-
         long long prevY = events[0].y;
         long double half;
         vector<pair<long double, long double>> slabs;
 
-        // First pass: compute total union area
         for (auto& e : events) {
             long long dy = e.y - prevY;
             if (dy > 0 && !active.empty()) {
@@ -57,10 +51,7 @@ public:
                 active.erase(active.find({e.x1, e.x2}));
             prevY = e.y;
         }
-
         half = totalArea / 2.0L;
-
-        // Second pass: find split y
         active.clear();
         prevY = events[0].y;
         long double acc = 0;
