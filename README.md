@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/rahulsharma1919/LeetCoding/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/rahulsharma1919/LeetCoding/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/rahulsharma1919/LeetCoding/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/rahulsharma1919/LeetCoding/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rahulsharma1919/LeetCoding/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/rahulsharma1919/LeetCoding/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/rahulsharma1919/LeetCoding/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -414,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2483-minimum-penalty-for-a-shop](https://github.com/rahulsharma1919/LeetCoding/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2887-sort-vowels-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/2887-sort-vowels-in-a-string) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3462-vowels-game-in-a-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/rahulsharma1919/LeetCoding/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/rahulsharma1919/LeetCoding/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -594,10 +597,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Shortest Path
 |  |
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Trie
+|  |
+| ------- |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 <!---LeetCode Topics End-->
