@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3637-trionic-array-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3637-trionic-array-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/rahulsharma1919/LeetCoding/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
