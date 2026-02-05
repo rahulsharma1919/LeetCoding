@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3379-transformed-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3379-transformed-array) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rahulsharma1919/LeetCoding/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/rahulsharma1919/LeetCoding/tree/master/3433-count-mentions-per-user) |
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2402-meeting-rooms-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2402-meeting-rooms-iii) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3336-water-bottles-ii) |
+| [3379-transformed-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3379-transformed-array) |
 | [3433-count-mentions-per-user](https://github.com/rahulsharma1919/LeetCoding/tree/master/3433-count-mentions-per-user) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
