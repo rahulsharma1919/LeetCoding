@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1458-max-dot-product-of-two-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/rahulsharma1919/LeetCoding/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2054-two-best-non-overlapping-events](https://github.com/rahulsharma1919/LeetCoding/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rahulsharma1919/LeetCoding/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -419,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/rahulsharma1919/LeetCoding/tree/master/1636-number-of-substrings-with-only-1s) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/rahulsharma1919/LeetCoding/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/rahulsharma1919/LeetCoding/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
@@ -453,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0085-maximal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0085-maximal-rectangle) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/rahulsharma1919/LeetCoding/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [2211-count-collisions-on-a-road](https://github.com/rahulsharma1919/LeetCoding/tree/master/2211-count-collisions-on-a-road) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
