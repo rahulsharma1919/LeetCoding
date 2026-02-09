@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahulsharma1919/LeetCoding/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
@@ -294,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/rahulsharma1919/LeetCoding/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
@@ -491,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahulsharma1919/LeetCoding/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
@@ -512,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
