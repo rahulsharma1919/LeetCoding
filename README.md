@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/rahulsharma1919/LeetCoding/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/rahulsharma1919/LeetCoding/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
@@ -289,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/rahulsharma1919/LeetCoding/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/rahulsharma1919/LeetCoding/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
