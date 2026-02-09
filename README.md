@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 | [1612-avoid-flood-in-the-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rahulsharma1919/LeetCoding/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -535,6 +536,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2092-find-all-people-with-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2092-find-all-people-with-secret) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/rahulsharma1919/LeetCoding/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -587,6 +589,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0110-balanced-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/0110-balanced-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/rahulsharma1919/LeetCoding/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/rahulsharma1919/LeetCoding/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Monotonic Queue
@@ -599,6 +602,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0110-balanced-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/0110-balanced-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 ## Segment Tree
 |  |
 | ------- |
@@ -628,4 +632,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
