@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahulsharma1919/LeetCoding/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rahulsharma1919/LeetCoding/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
@@ -221,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -366,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1612-avoid-flood-in-the-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/1612-avoid-flood-in-the-city) |
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
@@ -498,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rahulsharma1919/LeetCoding/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -520,6 +525,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
+| [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Combinatorics
