@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0120-triangle) |
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rahulsharma1919/LeetCoding/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0799-champagne-tower](https://github.com/rahulsharma1919/LeetCoding/tree/master/0799-champagne-tower) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
