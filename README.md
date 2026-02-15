@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/rahulsharma1919/LeetCoding/tree/master/1642-water-bottles) |
 | [2169-simple-bank-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2169-simple-bank-system) |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
@@ -402,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
@@ -426,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
