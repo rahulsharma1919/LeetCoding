@@ -409,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0190-reverse-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0190-reverse-bits) |
 | [0287-find-the-duplicate-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0287-find-the-duplicate-number) |
 | [0401-binary-watch](https://github.com/rahulsharma1919/LeetCoding/tree/master/0401-binary-watch) |
+| [0693-binary-number-with-alternating-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
