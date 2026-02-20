@@ -229,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0611-valid-triangle-number](https://github.com/rahulsharma1919/LeetCoding/tree/master/0611-valid-triangle-number) |
 | [0658-find-k-closest-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/0658-find-k-closest-elements) |
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
+| [0761-special-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -440,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0696-count-binary-substrings](https://github.com/rahulsharma1919/LeetCoding/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rahulsharma1919/LeetCoding/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
+| [0761-special-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0761-special-binary-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/rahulsharma1919/LeetCoding/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -675,6 +677,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0190-reverse-bits) |
+| [0761-special-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
