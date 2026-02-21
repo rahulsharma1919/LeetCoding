@@ -260,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -412,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0401-binary-watch](https://github.com/rahulsharma1919/LeetCoding/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
