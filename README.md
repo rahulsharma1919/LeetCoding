@@ -314,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1612-avoid-flood-in-the-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/1612-avoid-flood-in-the-city) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rahulsharma1919/LeetCoding/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/rahulsharma1919/LeetCoding/tree/master/0868-binary-gap) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
@@ -451,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/rahulsharma1919/LeetCoding/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/rahulsharma1919/LeetCoding/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
@@ -688,4 +691,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
+## Rolling Hash
+|  |
+| ------- |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Hash Function
+|  |
+| ------- |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 <!---LeetCode Topics End-->
