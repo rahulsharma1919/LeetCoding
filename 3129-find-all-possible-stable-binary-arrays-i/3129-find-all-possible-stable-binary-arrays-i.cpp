@@ -1,43 +1,72 @@
 class Solution {
 public:
-    const int MOD = 1e9 + 7;
-    int dp[201][201][2][201];
+    int numberOfStableArrays(int zero, int one, int limit) {
+        long long MOD = 1000000007;
+        int maxN = zero + one;
 
-    int solve(int z, int o, int last, int cnt, int limit) {
-        if (z == 0 && o == 0)
-            return 1;
+        std::vector<long long> fact(maxN + 1, 0);
+        std::vector<long long> invFact(maxN + 1, 0);
 
-        if (dp[z][o][last][cnt] != -1)
-            return dp[z][o][last][cnt];
-
-        long long ans = 0;
-
-        if (last == 0) {
-            if (z > 0 && cnt < limit)
-                ans += solve(z - 1, o, 0, cnt + 1, limit);
-            if (o > 0)
-                ans += solve(z, o - 1, 1, 1, limit);
-        } else {
-            if (o > 0 && cnt < limit)
-                ans += solve(z, o - 1, 1, cnt + 1, limit);
-            if (z > 0)
-                ans += solve(z - 1, o, 0, 1, limit);
+        fact[0] = 1;
+        invFact[0] = 1;
+        for (int i = 1; i <= maxN; i++) {
+            fact[i] = (fact[i - 1] * i) % MOD;
         }
 
-        return dp[z][o][last][cnt] = ans % MOD;
-    }
+        auto power = [&](long long baseVal, long long exp) {
+            long long res = 1;
+            baseVal %= MOD;
+            while (exp > 0) {
+                if (exp & 1)
+                    res = (res * baseVal) % MOD;
+                baseVal = (baseVal * baseVal) % MOD;
+                exp >>= 1;
+            }
+            return res;
+        };
 
-    int numberOfStableArrays(int zero, int one, int limit) {
-        memset(dp, -1, sizeof(dp));
+        invFact[maxN] = power(fact[maxN], MOD - 2);
+        for (int i = maxN - 1; i >= 1; i--) {
+            invFact[i] = (invFact[i + 1] * (i + 1)) % MOD;
+        }
+
+        auto C = [&](int n, int k) -> long long {
+            if (k < 0 || k > n)
+                return 0;
+            return fact[n] * invFact[k] % MOD * invFact[n - k] % MOD;
+        };
+
+        auto F = [&](int N, int K, int L) -> long long {
+            if (K <= 0 || K > N)
+                return 0;
+            long long ans = 0;
+            int maxJ = (N - K) / L;
+            for (int j = 0; j <= maxJ; j++) {
+                long long term = C(K, j) * C(N - j * L - 1, K - 1) % MOD;
+                if (j & 1) {
+                    ans = (ans - term + MOD) % MOD;
+                } else {
+                    ans = (ans + term) % MOD;
+                }
+            }
+            return ans;
+        };
+
+        int maxK = std::min(zero, one + 1);
+        std::vector<long long> fOne(maxK + 2, 0);
+        for (int k = 1; k <= maxK + 1; k++) {
+            fOne[k] = F(one, k, limit);
+        }
 
         long long ans = 0;
+        for (int k = 1; k <= maxK; k++) {
+            long long fz = F(zero, k, limit);
+            if (fz == 0)
+                continue;
+            long long fo = (fOne[k - 1] + 2 * fOne[k] + fOne[k + 1]) % MOD;
+            ans = (ans + fz * fo) % MOD;
+        }
 
-        if (zero > 0)
-            ans += solve(zero - 1, one, 0, 1, limit);
-
-        if (one > 0)
-            ans += solve(zero, one - 1, 1, 1, limit);
-
-        return ans % MOD;
+        return static_cast<int>(ans);
     }
 };
