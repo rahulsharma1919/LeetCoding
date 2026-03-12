@@ -1,88 +1,93 @@
 class Solution {
 private:
     struct DSU {
-        vector<int> p, r;
-        int comp;
-        DSU(int n) : p(n), r(n, 0), comp(n) { iota(p.begin(), p.end(), 0); }
-        int find(int x) { return p[x] == x ? x : p[x] = find(p[x]); }
-        bool unite(int a, int b) {
-            a = find(a);
-            b = find(b);
-            if (a == b)
+        vector<int> parent, rank_;
+        int components;
+        DSU(int n) : parent(n), rank_(n, 0), components(n) {
+            iota(parent.begin(), parent.end(), 0);
+        }
+        int find(int x) {
+            if (parent[x] != x)
+                parent[x] = find(parent[x]);
+            return parent[x];
+        }
+        bool unite(int x, int y) {
+            x = find(x);
+            y = find(y);
+            if (x == y)
                 return false;
-            if (r[a] < r[b])
-                swap(a, b);
-            p[b] = a;
-            if (r[a] == r[b])
-                r[a]++;
-            comp--;
+            if (rank_[x] < rank_[y])
+                swap(x, y);
+            parent[y] = x;
+            if (rank_[x] == rank_[y])
+                rank_[x]++;
+            components--;
             return true;
         }
     };
 
-    bool check(int mid, int n, vector<vector<int>>& edges, int k) {
+    bool canAchieve(int mid, int n, vector<vector<int>>& edges, int k) {
         DSU dsu(n);
-        // Track optional edges added to spanning tree (for upgrade counting)
-        int optionalInTree = 0;
-        int upgradesNeeded = 0;
+        int upgradesUsed = 0;
 
-        // Step 1: Validate and add MUST edges
+        // Step 1: Process MUST edges first
         for (auto& e : edges) {
-            if (!e[3])
+            int u = e[0], v = e[1], s = e[2], must = e[3];
+            if (!must)
                 continue;
-            if (e[2] < mid)
-                return false; // must edge too weak, impossible
-            if (!dsu.unite(e[0], e[1]))
-                return false; // cycle in must edges
+            // Must edge below target → impossible
+            if (s < mid)
+                return false;
+            // Must edges can't be upgraded, just add them
+            if (!dsu.unite(u, v))
+                return false; // cycle among must edges
         }
 
-        // Step 2: Add optional edges >= mid (free, no upgrade)
-        // Sort done outside; here we iterate sorted order
+        // Step 2: Add optional edges that don't need upgrade (s >= mid)
         for (auto& e : edges) {
-            if (e[3] || e[2] < mid)
+            int u = e[0], v = e[1], s = e[2], must = e[3];
+            if (must || s < mid)
                 continue;
-            dsu.unite(e[0], e[1]);
+            dsu.unite(u, v); // no upgrade needed
         }
 
-        // Step 3: Add optional edges needing upgrade (mid/2 <= s < mid)
+        // Step 3: Add optional edges needing upgrade (s*2 >= mid, s < mid)
+        // i.e., s >= ceil(mid / 2.0)
         for (auto& e : edges) {
-            if (e[3] || e[2] >= mid || 2 * e[2] < mid)
+            int u = e[0], v = e[1], s = e[2], must = e[3];
+            if (must || s >= mid)
                 continue;
-            if (dsu.unite(e[0], e[1]))
-                upgradesNeeded++;
+            if (2 * s >= mid) {
+                // Can use with upgrade
+                if (upgradesUsed < k && dsu.unite(u, v)) {
+                    upgradesUsed++;
+                }
+            }
         }
 
-        return dsu.comp == 1 && upgradesNeeded <= k;
+        return dsu.components == 1;
     }
 
 public:
     int maxStability(int n, vector<vector<int>>& edges, int k) {
-        // Collect all candidate answer values: s and 2*s for optional edges
-        vector<int> candidates;
-        for (auto& e : edges) {
-            candidates.push_back(e[2]);
-            if (!e[3])
-                candidates.push_back(e[2] * 2);
-        }
-        sort(candidates.begin(), candidates.end());
-        candidates.erase(unique(candidates.begin(), candidates.end()),
-                         candidates.end());
+        // Collect all possible strength values (original + doubled)
+        // Binary search over possible stability values
+        int lo = 1, hi = 2e5, ans = -1;
 
-        // Check feasibility at all
-        if (!check(1, n, edges, k))
+        // First check if spanning tree is even possible at stability = 0
+        if (!canAchieve(1, n, edges, k))
             return -1;
 
-        // Binary search over candidate values
-        int lo = 0, hi = (int)candidates.size() - 1, ans = -1;
         while (lo <= hi) {
-            int mi = lo + (hi - lo) / 2;
-            if (check(candidates[mi], n, edges, k)) {
-                ans = candidates[mi];
-                lo = mi + 1;
+            int mid = lo + (hi - lo) / 2;
+            if (canAchieve(mid, n, edges, k)) {
+                ans = mid;
+                lo = mid + 1;
             } else {
-                hi = mi - 1;
+                hi = mid - 1;
             }
         }
+
         return ans;
     }
 };
