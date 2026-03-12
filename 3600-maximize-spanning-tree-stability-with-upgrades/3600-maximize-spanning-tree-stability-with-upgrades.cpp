@@ -1,135 +1,88 @@
 class Solution {
 private:
-    vector<int> parent, rnk;
-
-    void init(int n) {
-        parent.resize(n);
-        rnk.assign(n, 0);
-        iota(parent.begin(), parent.end(), 0);
-    }
-
-    int find(int x) {
-        while (parent[x] != x) {
-            parent[x] = parent[parent[x]]; // path halving (faster in practice)
-            x = parent[x];
-        }
-        return x;
-    }
-
-    bool unite(int x, int y) {
-        x = find(x);
-        y = find(y);
-        if (x == y)
-            return false;
-        if (rnk[x] < rnk[y])
-            swap(x, y);
-        parent[y] = x;
-        if (rnk[x] == rnk[y])
-            rnk[x]++;
-        return true;
-    }
-
-    // Returns true if we can form spanning tree with min strength >= mid
-    bool canAchieve(int mid, int n, const vector<array<int, 4>>& mustEdges,
-                    const vector<array<int, 4>>& optFree,    // s >= mid
-                    const vector<array<int, 4>>& optUpgrade, // mid/2 <= s < mid
-                    int k) {
-        init(n);
-        int comp = n, upgradesUsed = 0;
-
-        // Must edges
-        for (auto& e : mustEdges) {
-            if (e[2] < mid)
-                return false; // can't upgrade must edges
-            if (!unite(e[0], e[1]))
-                return false; // cycle
+    struct DSU {
+        vector<int> p, r;
+        int comp;
+        DSU(int n) : p(n), r(n, 0), comp(n) { iota(p.begin(), p.end(), 0); }
+        int find(int x) { return p[x] == x ? x : p[x] = find(p[x]); }
+        bool unite(int a, int b) {
+            a = find(a);
+            b = find(b);
+            if (a == b)
+                return false;
+            if (r[a] < r[b])
+                swap(a, b);
+            p[b] = a;
+            if (r[a] == r[b])
+                r[a]++;
             comp--;
+            return true;
+        }
+    };
+
+    bool check(int mid, int n, vector<vector<int>>& edges, int k) {
+        DSU dsu(n);
+        // Track optional edges added to spanning tree (for upgrade counting)
+        int optionalInTree = 0;
+        int upgradesNeeded = 0;
+
+        // Step 1: Validate and add MUST edges
+        for (auto& e : edges) {
+            if (!e[3])
+                continue;
+            if (e[2] < mid)
+                return false; // must edge too weak, impossible
+            if (!dsu.unite(e[0], e[1]))
+                return false; // cycle in must edges
         }
 
-        // Free optional edges (no upgrade needed)
-        for (auto& e : optFree) {
-            if (unite(e[0], e[1]))
-                comp--;
-            if (comp == 1)
-                return true;
+        // Step 2: Add optional edges >= mid (free, no upgrade)
+        // Sort done outside; here we iterate sorted order
+        for (auto& e : edges) {
+            if (e[3] || e[2] < mid)
+                continue;
+            dsu.unite(e[0], e[1]);
         }
 
-        // Optional edges needing upgrade
-        for (auto& e : optUpgrade) {
-            if (upgradesUsed >= k)
-                break;
-            if (unite(e[0], e[1])) {
-                comp--;
-                upgradesUsed++;
-            }
-            if (comp == 1)
-                return true;
+        // Step 3: Add optional edges needing upgrade (mid/2 <= s < mid)
+        for (auto& e : edges) {
+            if (e[3] || e[2] >= mid || 2 * e[2] < mid)
+                continue;
+            if (dsu.unite(e[0], e[1]))
+                upgradesNeeded++;
         }
 
-        return comp == 1;
+        return dsu.comp == 1 && upgradesNeeded <= k;
     }
 
 public:
     int maxStability(int n, vector<vector<int>>& edges, int k) {
-        // Convert for cache efficiency
-        vector<array<int, 4>> must, optional_;
+        // Collect all candidate answer values: s and 2*s for optional edges
         vector<int> candidates;
-        candidates.reserve(edges.size() * 2);
-
         for (auto& e : edges) {
-            array<int, 4> a = {e[0], e[1], e[2], e[3]};
-            if (e[3])
-                must.push_back(a);
-            else
-                optional_.push_back(a);
             candidates.push_back(e[2]);
-            candidates.push_back(e[2] * 2);
+            if (!e[3])
+                candidates.push_back(e[2] * 2);
         }
-
-        // Deduplicate and sort candidates descending (try highest stability
-        // first)
         sort(candidates.begin(), candidates.end());
         candidates.erase(unique(candidates.begin(), candidates.end()),
                          candidates.end());
 
-        // Pre-sort optional by strength descending for greedy (strongest first)
-        sort(optional_.begin(), optional_.end(),
-             [](const array<int, 4>& a, const array<int, 4>& b) {
-                 return a[2] > b[2];
-             });
+        // Check feasibility at all
+        if (!check(1, n, edges, k))
+            return -1;
 
         // Binary search over candidate values
         int lo = 0, hi = (int)candidates.size() - 1, ans = -1;
-
-        // Quick check: is ANY spanning tree possible?
-        // (check at mid=1 with full optional set)
-        auto split = [&](int mid, vector<array<int, 4>>& free,
-                         vector<array<int, 4>>& upgrade) {
-            free.clear();
-            upgrade.clear();
-            for (auto& e : optional_) {
-                if (e[2] >= mid)
-                    free.push_back(e);
-                else if (2 * e[2] >= mid)
-                    upgrade.push_back(e);
-            }
-        };
-
-        vector<array<int, 4>> free, upgrade;
-
         while (lo <= hi) {
-            int mid_idx = lo + (hi - lo) / 2;
-            int mid = candidates[mid_idx];
-
-            split(mid, free, upgrade);
-            if (canAchieve(mid, n, must, free, upgrade, k)) {
-                ans = mid;
-                lo = mid_idx + 1;
+            int mi = lo + (hi - lo) / 2;
+            if (check(candidates[mi], n, edges, k)) {
+                ans = candidates[mi];
+                lo = mi + 1;
             } else {
-                hi = mid_idx - 1;
+                hi = mi - 1;
             }
         }
-
         return ans;
     }
 };
