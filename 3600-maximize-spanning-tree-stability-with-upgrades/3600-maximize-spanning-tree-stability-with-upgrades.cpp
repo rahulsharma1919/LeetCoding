@@ -1,90 +1,132 @@
 class Solution {
 private:
-    struct DSU {
-        vector<int> parent, rank_;
-        int components;
-        DSU(int n) : parent(n), rank_(n, 0), components(n) {
-            iota(parent.begin(), parent.end(), 0);
-        }
-        int find(int x) {
-            if (parent[x] != x)
-                parent[x] = find(parent[x]);
-            return parent[x];
-        }
-        bool unite(int x, int y) {
-            x = find(x);
-            y = find(y);
-            if (x == y)
-                return false;
-            if (rank_[x] < rank_[y])
-                swap(x, y);
-            parent[y] = x;
-            if (rank_[x] == rank_[y])
-                rank_[x]++;
-            components--;
-            return true;
-        }
-    };
+    vector<int> parent, rnk;
 
-    bool canAchieve(int mid, int n, vector<vector<int>>& edges, int k) {
-        DSU dsu(n);
-        int upgradesUsed = 0;
+    void init(int n) {
+        parent.resize(n);
+        rnk.assign(n, 0);
+        iota(parent.begin(), parent.end(), 0);
+    }
 
-        // Step 1: Process MUST edges first
-        for (auto& e : edges) {
-            int u = e[0], v = e[1], s = e[2], must = e[3];
-            if (!must)
-                continue;
-            // Must edge below target → impossible
-            if (s < mid)
-                return false;
-            // Must edges can't be upgraded, just add them
-            if (!dsu.unite(u, v))
-                return false; // cycle among must edges
+    int find(int x) {
+        while (parent[x] != x) {
+            parent[x] = parent[parent[x]]; // path halving (faster in practice)
+            x = parent[x];
         }
+        return x;
+    }
 
-        // Step 2: Add optional edges that don't need upgrade (s >= mid)
-        for (auto& e : edges) {
-            int u = e[0], v = e[1], s = e[2], must = e[3];
-            if (must || s < mid)
-                continue;
-            dsu.unite(u, v); // no upgrade needed
+    bool unite(int x, int y) {
+        x = find(x);
+        y = find(y);
+        if (x == y)
+            return false;
+        if (rnk[x] < rnk[y])
+            swap(x, y);
+        parent[y] = x;
+        if (rnk[x] == rnk[y])
+            rnk[x]++;
+        return true;
+    }
+
+    // Returns true if we can form spanning tree with min strength >= mid
+    bool canAchieve(int mid, int n, const vector<array<int, 4>>& mustEdges,
+                    const vector<array<int, 4>>& optFree,    // s >= mid
+                    const vector<array<int, 4>>& optUpgrade, // mid/2 <= s < mid
+                    int k) {
+        init(n);
+        int comp = n, upgradesUsed = 0;
+
+        // Must edges
+        for (auto& e : mustEdges) {
+            if (e[2] < mid)
+                return false; // can't upgrade must edges
+            if (!unite(e[0], e[1]))
+                return false; // cycle
+            comp--;
         }
 
-        // Step 3: Add optional edges needing upgrade (s*2 >= mid, s < mid)
-        // i.e., s >= ceil(mid / 2.0)
-        for (auto& e : edges) {
-            int u = e[0], v = e[1], s = e[2], must = e[3];
-            if (must || s >= mid)
-                continue;
-            if (2 * s >= mid) {
-                // Can use with upgrade
-                if (upgradesUsed < k && dsu.unite(u, v)) {
-                    upgradesUsed++;
-                }
+        // Free optional edges (no upgrade needed)
+        for (auto& e : optFree) {
+            if (unite(e[0], e[1]))
+                comp--;
+            if (comp == 1)
+                return true;
+        }
+
+        // Optional edges needing upgrade
+        for (auto& e : optUpgrade) {
+            if (upgradesUsed >= k)
+                break;
+            if (unite(e[0], e[1])) {
+                comp--;
+                upgradesUsed++;
             }
+            if (comp == 1)
+                return true;
         }
 
-        return dsu.components == 1;
+        return comp == 1;
     }
 
 public:
     int maxStability(int n, vector<vector<int>>& edges, int k) {
-        // Collect all possible strength values (original + doubled)
-        // Binary search over possible stability values
-        int lo = 1, hi = 2e5, ans = -1;
+        // Convert for cache efficiency
+        vector<array<int, 4>> must, optional_;
+        vector<int> candidates;
+        candidates.reserve(edges.size() * 2);
 
-        // First check if spanning tree is even possible at stability = 0
-        if (!canAchieve(1, n, edges, k))
-            return -1;
+        for (auto& e : edges) {
+            array<int, 4> a = {e[0], e[1], e[2], e[3]};
+            if (e[3])
+                must.push_back(a);
+            else
+                optional_.push_back(a);
+            candidates.push_back(e[2]);
+            candidates.push_back(e[2] * 2);
+        }
+
+        // Deduplicate and sort candidates descending (try highest stability
+        // first)
+        sort(candidates.begin(), candidates.end());
+        candidates.erase(unique(candidates.begin(), candidates.end()),
+                         candidates.end());
+
+        // Pre-sort optional by strength descending for greedy (strongest first)
+        sort(optional_.begin(), optional_.end(),
+             [](const array<int, 4>& a, const array<int, 4>& b) {
+                 return a[2] > b[2];
+             });
+
+        // Binary search over candidate values
+        int lo = 0, hi = (int)candidates.size() - 1, ans = -1;
+
+        // Quick check: is ANY spanning tree possible?
+        // (check at mid=1 with full optional set)
+        auto split = [&](int mid, vector<array<int, 4>>& free,
+                         vector<array<int, 4>>& upgrade) {
+            free.clear();
+            upgrade.clear();
+            for (auto& e : optional_) {
+                if (e[2] >= mid)
+                    free.push_back(e);
+                else if (2 * e[2] >= mid)
+                    upgrade.push_back(e);
+            }
+        };
+
+        vector<array<int, 4>> free, upgrade;
 
         while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (canAchieve(mid, n, edges, k)) {
+            int mid_idx = lo + (hi - lo) / 2;
+            int mid = candidates[mid_idx];
+
+            split(mid, free, upgrade);
+            if (canAchieve(mid, n, must, free, upgrade, k)) {
                 ans = mid;
-                lo = mid + 1;
+                lo = mid_idx + 1;
             } else {
-                hi = mid - 1;
+                hi = mid_idx - 1;
             }
         }
 
