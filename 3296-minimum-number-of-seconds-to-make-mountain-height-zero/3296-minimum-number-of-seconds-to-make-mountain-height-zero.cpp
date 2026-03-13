@@ -1,35 +1,26 @@
 class Solution {
 public:
     long long minNumberOfSeconds(int mountainHeight, vector<int>& workerTimes) {
-        auto timeToReduce = [](long long w, long long x) {
-            return w * x * (x + 1) / 2;
+        auto maxReduce = [](long long w, long long mid) -> long long {
+            return (long long)((-1 + sqrt(1 + 8.0 * mid / w)) / 2);
         };
 
         auto canFinish = [&](long long mid) {
-            long long totalReduction = 0;
+            long long total = 0;
             for (int w : workerTimes) {
-                long long lo = 1, hi = mountainHeight, best = 0;
-                while (lo <= hi) {
-                    long long x = lo + (hi - lo) / 2;
-                    if (timeToReduce(w, x) <= mid) {
-                        best = x;
-                        lo = x + 1;
-                    } else {
-                        hi = x - 1;
-                    }
-                }
-                totalReduction += best;
-                if (totalReduction >= mountainHeight)
+                total += maxReduce(w, mid);
+                if (total >= mountainHeight)
                     return true;
             }
-            return totalReduction >= mountainHeight;
+            return false;
         };
 
+        long long maxW = *max_element(workerTimes.begin(), workerTimes.end());
         long long lo = 1,
-                  hi = timeToReduce(
-                      *max_element(workerTimes.begin(), workerTimes.end()),
-                      mountainHeight),
+                  hi = maxW * (long long)mountainHeight * (mountainHeight + 1) /
+                       2,
                   ans = hi;
+
         while (lo <= hi) {
             long long mid = lo + (hi - lo) / 2;
             if (canFinish(mid)) {
