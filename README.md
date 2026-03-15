@@ -285,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/rahulsharma1919/LeetCoding/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+| [1622-fancy-sequence](https://github.com/rahulsharma1919/LeetCoding/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/rahulsharma1919/LeetCoding/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/rahulsharma1919/LeetCoding/tree/master/1642-water-bottles) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
@@ -546,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/rahulsharma1919/LeetCoding/tree/master/1622-fancy-sequence) |
 | [2023-design-movie-rental-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2023-design-movie-rental-system) |
 | [2169-simple-bank-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2169-simple-bank-system) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
@@ -700,6 +702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Segment Tree
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/rahulsharma1919/LeetCoding/tree/master/1622-fancy-sequence) |
 | [3454-separate-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3454-separate-squares-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
