@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2402-meeting-rooms-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2402-meeting-rooms-iii) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2625-increment-submatrices-by-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/2625-increment-submatrices-by-one) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1975-maximum-matrix-sum](https://github.com/rahulsharma1919/LeetCoding/tree/master/1975-maximum-matrix-sum) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/rahulsharma1919/LeetCoding/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2625-increment-submatrices-by-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/2625-increment-submatrices-by-one) |
 | [2906-construct-product-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rahulsharma1919/LeetCoding/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -207,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rahulsharma1919/LeetCoding/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/rahulsharma1919/LeetCoding/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
@@ -429,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1917-maximum-average-pass-ratio](https://github.com/rahulsharma1919/LeetCoding/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/rahulsharma1919/LeetCoding/tree/master/1975-maximum-matrix-sum) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/rahulsharma1919/LeetCoding/tree/master/2141-maximum-running-time-of-n-computers) |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3074-apple-redistribution-into-boxes](https://github.com/rahulsharma1919/LeetCoding/tree/master/3074-apple-redistribution-into-boxes) |
@@ -538,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/rahulsharma1919/LeetCoding/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rahulsharma1919/LeetCoding/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2887-sort-vowels-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/2887-sort-vowels-in-a-string) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
@@ -798,6 +803,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rahulsharma1919/LeetCoding/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Recursion
