@@ -126,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3643-flip-square-submatrix-vertically](https://github.com/rahulsharma1919/LeetCoding/tree/master/3643-flip-square-submatrix-vertically) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/rahulsharma1919/LeetCoding/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/rahulsharma1919/LeetCoding/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rahulsharma1919/LeetCoding/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3640-trionic-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3651-minimum-cost-path-with-teleportations) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/rahulsharma1919/LeetCoding/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rahulsharma1919/LeetCoding/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Sliding Window
@@ -306,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3634-minimum-removals-to-balance-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3634-minimum-removals-to-balance-array) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/rahulsharma1919/LeetCoding/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3748-sort-matrix-by-diagonals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3748-sort-matrix-by-diagonals) |
 ## Math
 |  |
@@ -638,6 +641,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/rahulsharma1919/LeetCoding/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3827-implement-router](https://github.com/rahulsharma1919/LeetCoding/tree/master/3827-implement-router) |
 ## Two Pointers
 |  |
