@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
+| [0874-walking-robot-simulation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0874-walking-robot-simulation) |
 | [0944-delete-columns-to-make-sorted](https://github.com/rahulsharma1919/LeetCoding/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0657-robot-return-to-origin](https://github.com/rahulsharma1919/LeetCoding/tree/master/0657-robot-return-to-origin) |
+| [0874-walking-robot-simulation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0874-walking-robot-simulation) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1642-water-bottles](https://github.com/rahulsharma1919/LeetCoding/tree/master/1642-water-bottles) |
@@ -374,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0532-k-diff-pairs-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
+| [0874-walking-robot-simulation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0874-walking-robot-simulation) |
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
