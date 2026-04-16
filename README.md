@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3454-separate-squares-ii) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
+| [3488-closest-equal-element-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3488-closest-equal-element-queries) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
@@ -407,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/rahulsharma1919/LeetCoding/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3488-closest-equal-element-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3488-closest-equal-element-queries) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
@@ -661,6 +663,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3454-separate-squares-ii) |
+| [3488-closest-equal-element-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3488-closest-equal-element-queries) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rahulsharma1919/LeetCoding/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
