@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1458-max-dot-product-of-two-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/rahulsharma1919/LeetCoding/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rahulsharma1919/LeetCoding/tree/master/1727-largest-submatrix-with-rearrangements) |
@@ -717,6 +719,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2092-find-all-people-with-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2092-find-all-people-with-secret) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3666-minimum-operations-to-equalize-binary-string) |
@@ -730,6 +733,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2092-find-all-people-with-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2092-find-all-people-with-secret) |
@@ -870,6 +874,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rahulsharma1919/LeetCoding/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
