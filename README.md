@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2615-sum-of-distances](https://github.com/rahulsharma1919/LeetCoding/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2625-increment-submatrices-by-one](https://github.com/rahulsharma1919/LeetCoding/tree/master/2625-increment-submatrices-by-one) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rahulsharma1919/LeetCoding/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2751-robot-collisions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2751-robot-collisions) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/rahulsharma1919/LeetCoding/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -461,6 +462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [2540-minimum-common-value](https://github.com/rahulsharma1919/LeetCoding/tree/master/2540-minimum-common-value) |
 | [2615-sum-of-distances](https://github.com/rahulsharma1919/LeetCoding/tree/master/2615-sum-of-distances) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rahulsharma1919/LeetCoding/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2784-check-if-array-is-good](https://github.com/rahulsharma1919/LeetCoding/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
@@ -582,6 +584,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/rahulsharma1919/LeetCoding/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
