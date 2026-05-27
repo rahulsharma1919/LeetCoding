@@ -476,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rahulsharma1919/LeetCoding/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/rahulsharma1919/LeetCoding/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3488-closest-equal-element-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3488-closest-equal-element-queries) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -663,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rahulsharma1919/LeetCoding/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3462-vowels-game-in-a-string) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/rahulsharma1919/LeetCoding/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
