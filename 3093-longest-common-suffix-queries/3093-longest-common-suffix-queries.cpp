@@ -1,82 +1,78 @@
+const int MAX_NODES = 500005;
+
+int nxt[MAX_NODES][26];
+int best_len[MAX_NODES];
+int best_idx[MAX_NODES];
+
 class Solution {
 public:
-    struct Node {
-        int child[26];
-        int bestIdx;
 
-        Node() {
-            memset(child, -1, sizeof(child));
-            bestIdx = -1;
+    void relax(int node, int len, int idx) {
+
+        if (len < best_len[node]) {
+            best_len[node] = len;
+            best_idx[node] = idx;
         }
-    };
-
-    vector<Node> trie;
-
-    bool better(int a, int b, vector<string>& wordsContainer) {
-
-        if (b == -1)
-            return true;
-
-        if (wordsContainer[a].size() != wordsContainer[b].size())
-            return wordsContainer[a].size() < wordsContainer[b].size();
-
-        return a < b;
-    }
-
-    void insert(string& word, int idx, vector<string>& wordsContainer) {
-
-        int node = 0;
-
-        if (better(idx, trie[node].bestIdx, wordsContainer))
-            trie[node].bestIdx = idx;
-
-        for (int i = word.size() - 1; i >= 0; --i) {
-
-            int c = word[i] - 'a';
-
-            if (trie[node].child[c] == -1) {
-                trie[node].child[c] = trie.size();
-                trie.push_back(Node());
-            }
-
-            node = trie[node].child[c];
-
-            if (better(idx, trie[node].bestIdx, wordsContainer))
-                trie[node].bestIdx = idx;
+        else if (len == best_len[node] && idx < best_idx[node]) {
+            best_idx[node] = idx;
         }
-    }
-
-    int query(string& word) {
-
-        int node = 0;
-
-        for (int i = word.size() - 1; i >= 0; --i) {
-
-            int c = word[i] - 'a';
-
-            if (trie[node].child[c] == -1)
-                break;
-
-            node = trie[node].child[c];
-        }
-
-        return trie[node].bestIdx;
     }
 
     vector<int> stringIndices(vector<string>& wordsContainer,
                               vector<string>& wordsQuery) {
 
-        trie.reserve(500000 + 5);
-        trie.push_back(Node());
+        int nodeCnt = 1;
 
-        for (int i = 0; i < wordsContainer.size(); ++i) {
-            insert(wordsContainer[i], i, wordsContainer);
+        memset(nxt[0], -1, sizeof(nxt[0]));
+        best_len[0] = 1e9;
+        best_idx[0] = 1e9;
+
+        for (int i = 0; i < wordsContainer.size(); i++) {
+
+            int curr = 0;
+            int len = wordsContainer[i].size();
+
+            relax(curr, len, i);
+
+            for (int j = len - 1; j >= 0; j--) {
+
+                int c = wordsContainer[i][j] - 'a';
+
+                if (nxt[curr][c] == -1) {
+
+                    nxt[curr][c] = nodeCnt;
+
+                    memset(nxt[nodeCnt], -1, sizeof(nxt[nodeCnt]));
+                    best_len[nodeCnt] = 1e9;
+                    best_idx[nodeCnt] = 1e9;
+
+                    nodeCnt++;
+                }
+
+                curr = nxt[curr][c];
+
+                relax(curr, len, i);
+            }
         }
 
         vector<int> ans;
+        ans.reserve(wordsQuery.size());
 
-        for (auto& q : wordsQuery) {
-            ans.push_back(query(q));
+        for (auto &q : wordsQuery) {
+
+            int curr = 0;
+
+            for (int j = q.size() - 1; j >= 0; j--) {
+
+                int c = q[j] - 'a';
+
+                if (nxt[curr][c] == -1)
+                    break;
+
+                curr = nxt[curr][c];
+            }
+
+            ans.push_back(best_idx[curr]);
         }
 
         return ans;
