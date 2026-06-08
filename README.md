@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2126-destroying-asteroids](https://github.com/rahulsharma1919/LeetCoding/tree/master/2126-destroying-asteroids) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/rahulsharma1919/LeetCoding/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/rahulsharma1919/LeetCoding/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/rahulsharma1919/LeetCoding/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2169-simple-bank-system) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/rahulsharma1919/LeetCoding/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1914-cyclically-rotating-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1914-cyclically-rotating-a-grid) |
 | [2069-walking-robot-simulation-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/rahulsharma1919/LeetCoding/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/rahulsharma1919/LeetCoding/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2169-simple-bank-system) |
 | [2211-count-collisions-on-a-road](https://github.com/rahulsharma1919/LeetCoding/tree/master/2211-count-collisions-on-a-road) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -803,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rahulsharma1919/LeetCoding/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/rahulsharma1919/LeetCoding/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/rahulsharma1919/LeetCoding/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2540-minimum-common-value](https://github.com/rahulsharma1919/LeetCoding/tree/master/2540-minimum-common-value) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
