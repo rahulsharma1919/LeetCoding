@@ -347,6 +347,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3612-process-string-with-special-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3614-process-string-with-special-operations-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -708,6 +709,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/rahulsharma1919/LeetCoding/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3606-coupon-code-validator](https://github.com/rahulsharma1919/LeetCoding/tree/master/3606-coupon-code-validator) |
 | [3612-process-string-with-special-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3612-process-string-with-special-operations-i) |
+| [3614-process-string-with-special-operations-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3614-process-string-with-special-operations-ii) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3713-longest-balanced-substring-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3714-longest-balanced-substring-ii) |
