@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rahulsharma1919/LeetCoding/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -541,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/rahulsharma1919/LeetCoding/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
@@ -925,6 +927,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Bitmask
 |  |
@@ -985,6 +988,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Line Sweep
 |  |
 | ------- |
@@ -1025,6 +1029,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1071,4 +1076,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
 <!---LeetCode Topics End-->
