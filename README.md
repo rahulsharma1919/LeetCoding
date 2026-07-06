@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rahulsharma1919/LeetCoding/tree/master/1266-minimum-time-visiting-all-points) |
+| [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/rahulsharma1919/LeetCoding/tree/master/1301-number-of-paths-with-max-score) |
 | [1306-jump-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1306-jump-game-iii) |
 | [1340-jump-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1340-jump-game-v) |
@@ -388,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0759-set-intersection-size-at-least-two](https://github.com/rahulsharma1919/LeetCoding/tree/master/0759-set-intersection-size-at-least-two) |
 | [0761-special-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
+| [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
 | [1340-jump-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1340-jump-game-v) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
