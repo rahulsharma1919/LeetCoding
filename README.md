@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/rahulsharma1919/LeetCoding/tree/master/1301-number-of-paths-with-max-score) |
 | [1306-jump-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1306-jump-game-iii) |
+| [1331-rank-transform-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1345-jump-game-iv) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0761-special-binary-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
+| [1331-rank-transform-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1340-jump-game-v) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -520,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1189-maximum-number-of-balloons](https://github.com/rahulsharma1919/LeetCoding/tree/master/1189-maximum-number-of-balloons) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/rahulsharma1919/LeetCoding/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1331-rank-transform-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1331-rank-transform-of-an-array) |
 | [1345-jump-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rahulsharma1919/LeetCoding/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/1358-number-of-substrings-containing-all-three-characters) |
