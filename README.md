@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
 | [0874-walking-robot-simulation](https://github.com/rahulsharma1919/LeetCoding/tree/master/0874-walking-robot-simulation) |
+| [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [0944-delete-columns-to-make-sorted](https://github.com/rahulsharma1919/LeetCoding/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -297,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rahulsharma1919/LeetCoding/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0788-rotated-digits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0788-rotated-digits) |
 | [0799-champagne-tower](https://github.com/rahulsharma1919/LeetCoding/tree/master/0799-champagne-tower) |
+| [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1301-number-of-paths-with-max-score](https://github.com/rahulsharma1919/LeetCoding/tree/master/1301-number-of-paths-with-max-score) |
@@ -477,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/rahulsharma1919/LeetCoding/tree/master/0788-rotated-digits) |
 | [0830-largest-triangle-area](https://github.com/rahulsharma1919/LeetCoding/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
+| [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rahulsharma1919/LeetCoding/tree/master/1266-minimum-time-visiting-all-points) |
@@ -829,6 +832,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/rahulsharma1919/LeetCoding/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [3462-vowels-game-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3462-vowels-game-in-a-string) |
 ## Counting
 |  |
