@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1006-vowel-spellchecker](https://github.com/rahulsharma1919/LeetCoding/tree/master/1006-vowel-spellchecker) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1260-shift-2d-grid) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rahulsharma1919/LeetCoding/tree/master/1266-minimum-time-visiting-all-points) |
 | [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
@@ -303,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/rahulsharma1919/LeetCoding/tree/master/1301-number-of-paths-with-max-score) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1340-jump-game-v) |
@@ -487,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rahulsharma1919/LeetCoding/tree/master/1266-minimum-time-visiting-all-points) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/rahulsharma1919/LeetCoding/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/rahulsharma1919/LeetCoding/tree/master/1390-four-divisors) |
@@ -846,6 +849,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0486-predict-the-winner](https://github.com/rahulsharma1919/LeetCoding/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/rahulsharma1919/LeetCoding/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1406-stone-game-iii) |
 | [3462-vowels-game-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3462-vowels-game-in-a-string) |
 ## Counting
@@ -1037,6 +1041,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rahulsharma1919/LeetCoding/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1732-find-the-highest-altitude](https://github.com/rahulsharma1919/LeetCoding/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1871-jump-game-vii) |
@@ -1239,4 +1244,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/rahulsharma1919/LeetCoding/tree/master/3620-network-recovery-pathways) |
+## Minimax
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
