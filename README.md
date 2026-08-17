@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/rahulsharma1919/LeetCoding/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1563-stone-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1563-stone-game-v) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
@@ -317,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1510-stone-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1563-stone-game-v) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rahulsharma1919/LeetCoding/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -507,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1510-stone-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1510-stone-game-iv) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/rahulsharma1919/LeetCoding/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+| [1563-stone-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1563-stone-game-v) |
 | [1622-fancy-sequence](https://github.com/rahulsharma1919/LeetCoding/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/rahulsharma1919/LeetCoding/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/rahulsharma1919/LeetCoding/tree/master/1642-water-bottles) |
@@ -870,6 +873,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/rahulsharma1919/LeetCoding/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/rahulsharma1919/LeetCoding/tree/master/2029-stone-game-ix) |
 | [3462-vowels-game-in-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3462-vowels-game-in-a-string) |
 ## Counting
