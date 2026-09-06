@@ -314,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0120-triangle) |
 | [0396-rotate-function](https://github.com/rahulsharma1919/LeetCoding/tree/master/0396-rotate-function) |
@@ -821,6 +822,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
+| [0115-distinct-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/0115-distinct-subsequences) |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
