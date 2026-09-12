@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3312-sorted-gcd-pair-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/rahulsharma1919/LeetCoding/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3379-transformed-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3379-transformed-array) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rahulsharma1919/LeetCoding/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/rahulsharma1919/LeetCoding/tree/master/3433-count-mentions-per-user) |
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3225-maximum-score-from-grid-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3225-maximum-score-from-grid-operations) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/rahulsharma1919/LeetCoding/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/rahulsharma1919/LeetCoding/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/rahulsharma1919/LeetCoding/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -488,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3075-maximize-happiness-of-selected-children](https://github.com/rahulsharma1919/LeetCoding/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3433-count-mentions-per-user](https://github.com/rahulsharma1919/LeetCoding/tree/master/3433-count-mentions-per-user) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/rahulsharma1919/LeetCoding/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -1017,6 +1020,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3161-block-placement-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3161-block-placement-queries) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3312-sorted-gcd-pair-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3312-sorted-gcd-pair-queries) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3454-separate-squares-ii) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/rahulsharma1919/LeetCoding/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
