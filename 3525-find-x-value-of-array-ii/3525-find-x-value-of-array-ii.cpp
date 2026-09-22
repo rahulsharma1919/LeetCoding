@@ -1,101 +1,103 @@
+class SegmentTree {
+private:
+    static const int MAXK = 6;
+    int k;
+    int n;
+    vector<array<int, MAXK>> tree;
+
+    void makeLeaf(int o, int value) {
+        tree[o].fill(0);
+        int r = value % k;
+        tree[o][r] = 1;
+        tree[o][k] = r; // mul
+    }
+
+    void mergePre(const array<int, MAXK>& left, const array<int, MAXK>& right,
+                  array<int, MAXK>& result) {
+        result.fill(0);
+
+        int mulL = left[k];
+        int mulR = right[k];
+        result[k] = (mulL * mulR) % k;
+
+        // Case 1: prefix lies entirely within left
+        for (int x = 0; x < k; x++) {
+            result[x] = left[x];
+        }
+
+        // Case 2: covers all of left, then extends into right's prefix
+        for (int x = 0; x < k; x++) {
+            result[(mulL * x) % k] += right[x];
+        }
+    }
+
+    void maintain(int o) { mergePre(tree[o * 2], tree[o * 2 + 1], tree[o]); }
+
+    void build(const vector<int>& nums, int o, int l, int r) {
+        if (l == r) {
+            makeLeaf(o, nums[l]);
+            return;
+        }
+        int m = (l + r) / 2;
+        build(nums, o * 2, l, m);
+        build(nums, o * 2 + 1, m + 1, r);
+        maintain(o);
+    }
+
+public:
+    SegmentTree(const vector<int>& nums, int k) : k(k), n(nums.size()) {
+        int size = 4 * n + 4;
+        tree.resize(size);
+        build(nums, 1, 0, n - 1);
+    }
+
+    void update(int o, int l, int r, int index, int value) {
+        if (l == r) {
+            makeLeaf(o, value);
+            return;
+        }
+        int m = (l + r) / 2;
+        if (index <= m)
+            update(o * 2, l, m, index, value);
+        else
+            update(o * 2 + 1, m + 1, r, index, value);
+        maintain(o);
+    }
+
+    array<int, MAXK> query(int o, int l, int r, int L, int R) {
+        if (L <= l && r <= R) {
+            return tree[o];
+        }
+        int m = (l + r) / 2;
+        if (R <= m) {
+            return query(o * 2, l, m, L, R);
+        }
+        if (L > m) {
+            return query(o * 2 + 1, m + 1, r, L, R);
+        }
+        array<int, MAXK> left = query(o * 2, l, m, L, R);
+        array<int, MAXK> right = query(o * 2 + 1, m + 1, r, L, R);
+        array<int, MAXK> result;
+        mergePre(left, right, result);
+        return result;
+    }
+};
+
 class Solution {
 public:
-    int K, n;
-    vector<int> cntMat;    // flat: node*K*K + a*K + b
-    vector<int> fullTrans; // flat: node*K + a
-    vector<int> tarr;
-
-    inline int cIdx(int node, int a, int b) { return node * K * K + a * K + b; }
-    inline int fIdx(int node, int a) { return node * K + a; }
-
-    void pull(int node) {
-        int L = 2 * node, R = 2 * node + 1;
-        for (int a = 0; a < K; a++) {
-            int c = fullTrans[fIdx(L, a)];
-            for (int b = 0; b < K; b++) {
-                cntMat[cIdx(node, a, b)] =
-                    cntMat[cIdx(L, a, b)] + cntMat[cIdx(R, c, b)];
-            }
-            fullTrans[fIdx(node, a)] = fullTrans[fIdx(R, c)];
-        }
-    }
-
-    void setLeaf(int node, int m) {
-        for (int a = 0; a < K; a++) {
-            int nb = (a * m) % K;
-            for (int b = 0; b < K; b++)
-                cntMat[cIdx(node, a, b)] = 0;
-            cntMat[cIdx(node, a, nb)] = 1;
-            fullTrans[fIdx(node, a)] = nb;
-        }
-    }
-
-    void build(int node, int l, int r) {
-        if (l == r) {
-            setLeaf(node, tarr[l]);
-            return;
-        }
-        int mid = (l + r) / 2;
-        build(2 * node, l, mid);
-        build(2 * node + 1, mid + 1, r);
-        pull(node);
-    }
-
-    void update(int node, int l, int r, int idx, int val) {
-        if (l == r) {
-            setLeaf(node, val);
-            return;
-        }
-        int mid = (l + r) / 2;
-        if (idx <= mid)
-            update(2 * node, l, mid, idx, val);
-        else
-            update(2 * node + 1, mid + 1, r, idx, val);
-        pull(node);
-    }
-
-    void query(int node, int l, int r, int qs, int x, int& curResidue,
-               long long& ans) {
-        if (r < qs)
-            return;
-        if (l >= qs) {
-            ans += cntMat[cIdx(node, curResidue, x)];
-            curResidue = fullTrans[fIdx(node, curResidue)];
-            return;
-        }
-        int mid = (l + r) / 2;
-        query(2 * node, l, mid, qs, x, curResidue, ans);
-        query(2 * node + 1, mid + 1, r, qs, x, curResidue, ans);
-    }
-
     vector<int> resultArray(vector<int>& nums, int k,
                             vector<vector<int>>& queries) {
-        K = k;
-        n = nums.size();
-        tarr.resize(n);
-        for (int i = 0; i < n; i++)
-            tarr[i] = nums[i] % k;
-
-        int size = 4 * n;
-        cntMat.assign((long long)size * K * K, 0);
-        fullTrans.assign((long long)size * K, 0);
-
-        build(1, 0, n - 1);
-
-        vector<int> result;
-        result.reserve(queries.size());
+        int n = nums.size();
+        SegmentTree seg(nums, k);
+        vector<int> ans;
+        ans.reserve(queries.size());
 
         for (auto& q : queries) {
             int index = q[0], value = q[1], start = q[2], x = q[3];
-            tarr[index] = value % K;
-            update(1, 0, n - 1, index, tarr[index]);
-
-            int curResidue = 1 % K;
-            long long ans = 0;
-            query(1, 0, n - 1, start, x, curResidue, ans);
-            result.push_back((int)ans);
+            seg.update(1, 0, n - 1, index, value);
+            auto pre = seg.query(1, 0, n - 1, start, n - 1);
+            ans.push_back(pre[x]);
         }
-
-        return result;
+        return ans;
     }
 };
