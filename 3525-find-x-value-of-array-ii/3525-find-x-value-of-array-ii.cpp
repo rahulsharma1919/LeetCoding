@@ -1,47 +1,49 @@
 class Solution {
 public:
     int K, n;
-    vector<vector<array<long long, 5>>> cntMat;
-    vector<array<int, 5>> fullTrans;
+    vector<int> cntMat;    // flat: node*K*K + a*K + b
+    vector<int> fullTrans; // flat: node*K + a
     vector<int> tarr;
+
+    inline int cIdx(int node, int a, int b) { return node * K * K + a * K + b; }
+    inline int fIdx(int node, int a) { return node * K + a; }
+
+    void pull(int node) {
+        int L = 2 * node, R = 2 * node + 1;
+        for (int a = 0; a < K; a++) {
+            int c = fullTrans[fIdx(L, a)];
+            for (int b = 0; b < K; b++) {
+                cntMat[cIdx(node, a, b)] =
+                    cntMat[cIdx(L, a, b)] + cntMat[cIdx(R, c, b)];
+            }
+            fullTrans[fIdx(node, a)] = fullTrans[fIdx(R, c)];
+        }
+    }
+
+    void setLeaf(int node, int m) {
+        for (int a = 0; a < K; a++) {
+            int nb = (a * m) % K;
+            for (int b = 0; b < K; b++)
+                cntMat[cIdx(node, a, b)] = 0;
+            cntMat[cIdx(node, a, nb)] = 1;
+            fullTrans[fIdx(node, a)] = nb;
+        }
+    }
 
     void build(int node, int l, int r) {
         if (l == r) {
-            int m = tarr[l];
-            for (int a = 0; a < K; a++) {
-                int nb = (a * m) % K;
-                for (int b = 0; b < K; b++)
-                    cntMat[node][a][b] = 0;
-                cntMat[node][a][nb] = 1;
-                fullTrans[node][a] = nb;
-            }
+            setLeaf(node, tarr[l]);
             return;
         }
         int mid = (l + r) / 2;
         build(2 * node, l, mid);
         build(2 * node + 1, mid + 1, r);
-
-        for (int a = 0; a < K; a++) {
-            for (int b = 0; b < K; b++)
-                cntMat[node][a][b] = cntMat[2 * node][a][b];
-            int c = fullTrans[2 * node][a];
-            for (int b = 0; b < K; b++) {
-                cntMat[node][a][b] += cntMat[2 * node + 1][c][b];
-            }
-            fullTrans[node][a] = fullTrans[2 * node + 1][c];
-        }
+        pull(node);
     }
 
     void update(int node, int l, int r, int idx, int val) {
         if (l == r) {
-            int m = val;
-            for (int a = 0; a < K; a++) {
-                int nb = (a * m) % K;
-                for (int b = 0; b < K; b++)
-                    cntMat[node][a][b] = 0;
-                cntMat[node][a][nb] = 1;
-                fullTrans[node][a] = nb;
-            }
+            setLeaf(node, val);
             return;
         }
         int mid = (l + r) / 2;
@@ -49,40 +51,21 @@ public:
             update(2 * node, l, mid, idx, val);
         else
             update(2 * node + 1, mid + 1, r, idx, val);
-
-        for (int a = 0; a < K; a++) {
-            for (int b = 0; b < K; b++)
-                cntMat[node][a][b] = cntMat[2 * node][a][b];
-            int c = fullTrans[2 * node][a];
-            for (int b = 0; b < K; b++) {
-                cntMat[node][a][b] += cntMat[2 * node + 1][c][b];
-            }
-            fullTrans[node][a] = fullTrans[2 * node + 1][c];
-        }
+        pull(node);
     }
 
-    array<long long, 5> queryFrom(int node, int l, int r, int qs,
-                                  int startResidue, int& curResidue) {
-        if (r < qs) {
-            array<long long, 5> zero{};
-            return zero;
-        }
+    void query(int node, int l, int r, int qs, int x, int& curResidue,
+               long long& ans) {
+        if (r < qs)
+            return;
         if (l >= qs) {
-            array<long long, 5> res;
-            for (int b = 0; b < K; b++)
-                res[b] = cntMat[node][curResidue][b];
-            curResidue = fullTrans[node][curResidue];
-            return res;
+            ans += cntMat[cIdx(node, curResidue, x)];
+            curResidue = fullTrans[fIdx(node, curResidue)];
+            return;
         }
         int mid = (l + r) / 2;
-        array<long long, 5> leftRes =
-            queryFrom(2 * node, l, mid, qs, startResidue, curResidue);
-        array<long long, 5> rightRes =
-            queryFrom(2 * node + 1, mid + 1, r, qs, startResidue, curResidue);
-        array<long long, 5> res{};
-        for (int b = 0; b < K; b++)
-            res[b] = leftRes[b] + rightRes[b];
-        return res;
+        query(2 * node, l, mid, qs, x, curResidue, ans);
+        query(2 * node + 1, mid + 1, r, qs, x, curResidue, ans);
     }
 
     vector<int> resultArray(vector<int>& nums, int k,
@@ -94,21 +77,23 @@ public:
             tarr[i] = nums[i] % k;
 
         int size = 4 * n;
-        cntMat.assign(size, vector<array<long long, 5>>(K));
-        fullTrans.assign(size, array<int, 5>());
+        cntMat.assign((long long)size * K * K, 0);
+        fullTrans.assign((long long)size * K, 0);
 
         build(1, 0, n - 1);
 
         vector<int> result;
+        result.reserve(queries.size());
+
         for (auto& q : queries) {
             int index = q[0], value = q[1], start = q[2], x = q[3];
-            tarr[index] = value % k;
+            tarr[index] = value % K;
             update(1, 0, n - 1, index, tarr[index]);
 
-            int curResidue =
-                1 % k; // start with multiplicative identity residue
-            auto counts = queryFrom(1, 0, n - 1, start, 1, curResidue);
-            result.push_back((int)counts[x]);
+            int curResidue = 1 % K;
+            long long ans = 0;
+            query(1, 0, n - 1, start, x, curResidue, ans);
+            result.push_back((int)ans);
         }
 
         return result;
