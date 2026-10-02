@@ -324,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0022-generate-parentheses) |
 | [0085-maximal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0118-pascals-triangle) |
@@ -719,6 +720,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
 | [0401-binary-watch](https://github.com/rahulsharma1919/LeetCoding/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
@@ -860,6 +862,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/rahulsharma1919/LeetCoding/tree/master/0067-add-binary) |
 | [0115-distinct-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/0115-distinct-subsequences) |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
@@ -1412,6 +1415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bracket Sequences
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
