@@ -1,25 +1,24 @@
 class Solution {
 public:
     bool isValid(string s) {
-        if (s.size() % 2 == 1)
-            return false; // odd length can never balance
-
-        stack<char> st;
+        if (s.size() & 1)
+            return false;
+        string st;
+        st.reserve(s.size());
 
         for (char c : s) {
             if (c == '(')
-                st.push(')');
+                st.push_back(')');
             else if (c == '{')
-                st.push('}');
+                st.push_back('}');
             else if (c == '[')
-                st.push(']');
+                st.push_back(']');
             else {
-                if (st.empty() || st.top() != c)
+                if (st.empty() || st.back() != c)
                     return false;
-                st.pop();
+                st.pop_back();
             }
         }
-
         return st.empty();
     }
 };
