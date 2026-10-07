@@ -724,6 +724,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/rahulsharma1919/LeetCoding/tree/master/0037-sudoku-solver) |
+| [0301-remove-invalid-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0301-remove-invalid-parentheses) |
 | [0401-binary-watch](https://github.com/rahulsharma1919/LeetCoding/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/0756-pyramid-transition-matrix) |
 | [1096-brace-expansion-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1096-brace-expansion-ii) |
@@ -873,6 +874,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/0115-distinct-subsequences) |
 | [0165-compare-version-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/rahulsharma1919/LeetCoding/tree/master/0166-fraction-to-recurring-decimal) |
+| [0301-remove-invalid-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0301-remove-invalid-parentheses) |
 | [0474-ones-and-zeroes](https://github.com/rahulsharma1919/LeetCoding/tree/master/0474-ones-and-zeroes) |
 | [0657-robot-return-to-origin](https://github.com/rahulsharma1919/LeetCoding/tree/master/0657-robot-return-to-origin) |
 | [0678-valid-parenthesis-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/0678-valid-parenthesis-string) |
@@ -1138,6 +1140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/rahulsharma1919/LeetCoding/tree/master/0301-remove-invalid-parentheses) |
 | [0407-trapping-rain-water-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/0407-trapping-rain-water-ii) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1096-brace-expansion-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1096-brace-expansion-ii) |
