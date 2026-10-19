@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2029-stone-game-ix](https://github.com/rahulsharma1919/LeetCoding/tree/master/2029-stone-game-ix) |
 | [2054-two-best-non-overlapping-events](https://github.com/rahulsharma1919/LeetCoding/tree/master/2054-two-best-non-overlapping-events) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/rahulsharma1919/LeetCoding/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/rahulsharma1919/LeetCoding/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2126-destroying-asteroids](https://github.com/rahulsharma1919/LeetCoding/tree/master/2126-destroying-asteroids) |
@@ -499,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rahulsharma1919/LeetCoding/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2054-two-best-non-overlapping-events](https://github.com/rahulsharma1919/LeetCoding/tree/master/2054-two-best-non-overlapping-events) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2092-find-all-people-with-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2092-find-all-people-with-secret) |
 | [2126-destroying-asteroids](https://github.com/rahulsharma1919/LeetCoding/tree/master/2126-destroying-asteroids) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/rahulsharma1919/LeetCoding/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -1103,6 +1105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/rahulsharma1919/LeetCoding/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2054-two-best-non-overlapping-events](https://github.com/rahulsharma1919/LeetCoding/tree/master/2054-two-best-non-overlapping-events) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/rahulsharma1919/LeetCoding/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rahulsharma1919/LeetCoding/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
