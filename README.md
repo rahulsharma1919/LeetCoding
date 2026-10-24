@@ -596,6 +596,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2288-count-operations-to-obtain-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/2288-count-operations-to-obtain-zero) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2409-count-days-spent-together](https://github.com/rahulsharma1919/LeetCoding/tree/master/2409-count-days-spent-together) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/rahulsharma1919/LeetCoding/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rahulsharma1919/LeetCoding/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -959,6 +960,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2211-count-collisions-on-a-road](https://github.com/rahulsharma1919/LeetCoding/tree/master/2211-count-collisions-on-a-road) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/rahulsharma1919/LeetCoding/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/rahulsharma1919/LeetCoding/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2409-count-days-spent-together](https://github.com/rahulsharma1919/LeetCoding/tree/master/2409-count-days-spent-together) |
 | [2429-design-a-food-rating-system](https://github.com/rahulsharma1919/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/rahulsharma1919/LeetCoding/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/rahulsharma1919/LeetCoding/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
