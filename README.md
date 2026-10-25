@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1018-largest-perimeter-triangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/1018-largest-perimeter-triangle) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rahulsharma1919/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1140-stone-game-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1140-stone-game-ii) |
+| [1254-number-of-closed-islands](https://github.com/rahulsharma1919/LeetCoding/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1260-shift-2d-grid) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rahulsharma1919/LeetCoding/tree/master/1266-minimum-time-visiting-all-points) |
 | [1288-remove-covered-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/1288-remove-covered-intervals) |
@@ -272,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0498-diagonal-traverse](https://github.com/rahulsharma1919/LeetCoding/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [0840-magic-squares-in-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/0840-magic-squares-in-grid) |
+| [1254-number-of-closed-islands](https://github.com/rahulsharma1919/LeetCoding/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/rahulsharma1919/LeetCoding/tree/master/1301-number-of-paths-with-max-score) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/rahulsharma1919/LeetCoding/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -1189,6 +1191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1096-brace-expansion-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/rahulsharma1919/LeetCoding/tree/master/1254-number-of-closed-islands) |
 | [1306-jump-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/rahulsharma1919/LeetCoding/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -1211,6 +1214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/rahulsharma1919/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rahulsharma1919/LeetCoding/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/rahulsharma1919/LeetCoding/tree/master/1254-number-of-closed-islands) |
 | [1306-jump-game-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/1306-jump-game-iii) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/1382-balance-a-binary-search-tree) |
@@ -1412,6 +1416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/rahulsharma1919/LeetCoding/tree/master/1254-number-of-closed-islands) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/rahulsharma1919/LeetCoding/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
