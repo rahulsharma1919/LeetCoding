@@ -254,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3827-implement-router](https://github.com/rahulsharma1919/LeetCoding/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3838-weighted-word-mapping](https://github.com/rahulsharma1919/LeetCoding/tree/master/3838-weighted-word-mapping) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3863-power-grid-maintenance](https://github.com/rahulsharma1919/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/rahulsharma1919/LeetCoding/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -892,6 +893,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3676-smallest-number-with-all-set-bits](https://github.com/rahulsharma1919/LeetCoding/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/rahulsharma1919/LeetCoding/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/rahulsharma1919/LeetCoding/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Brainteaser
@@ -1012,6 +1014,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3797-design-spreadsheet](https://github.com/rahulsharma1919/LeetCoding/tree/master/3797-design-spreadsheet) |
 | [3838-weighted-word-mapping](https://github.com/rahulsharma1919/LeetCoding/tree/master/3838-weighted-word-mapping) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rahulsharma1919/LeetCoding/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Game Theory
@@ -1239,6 +1242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/rahulsharma1919/LeetCoding/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-power-grid-maintenance](https://github.com/rahulsharma1919/LeetCoding/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
@@ -1327,6 +1331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/rahulsharma1919/LeetCoding/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1357,6 +1362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Line Sweep
 |  |
 | ------- |
@@ -1408,6 +1414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3721-longest-balanced-subarray-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3721-longest-balanced-subarray-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1459,6 +1466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3161-block-placement-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3161-block-placement-queries) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Counting Sort
 |  |
 | ------- |
