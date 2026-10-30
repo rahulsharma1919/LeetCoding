@@ -851,6 +851,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3678-design-task-manager](https://github.com/rahulsharma1919/LeetCoding/tree/master/3678-design-task-manager) |
 | [3863-power-grid-maintenance](https://github.com/rahulsharma1919/LeetCoding/tree/master/3863-power-grid-maintenance) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Geometry
 |  |
 | ------- |
@@ -1017,6 +1018,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/rahulsharma1919/LeetCoding/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rahulsharma1919/LeetCoding/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Game Theory
 |  |
 | ------- |
@@ -1386,6 +1388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rahulsharma1919/LeetCoding/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3620-network-recovery-pathways](https://github.com/rahulsharma1919/LeetCoding/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Shortest Path
 |  |
 | ------- |
@@ -1394,6 +1397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/rahulsharma1919/LeetCoding/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/rahulsharma1919/LeetCoding/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Trie
 |  |
 | ------- |
