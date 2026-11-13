@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/rahulsharma1919/LeetCoding/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3379-transformed-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/3379-transformed-array) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/rahulsharma1919/LeetCoding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rahulsharma1919/LeetCoding/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/rahulsharma1919/LeetCoding/tree/master/3433-count-mentions-per-user) |
 | [3453-separate-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/3453-separate-squares-i) |
@@ -445,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/rahulsharma1919/LeetCoding/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/rahulsharma1919/LeetCoding/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/rahulsharma1919/LeetCoding/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/rahulsharma1919/LeetCoding/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/rahulsharma1919/LeetCoding/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -940,6 +942,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rahulsharma1919/LeetCoding/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3827-implement-router](https://github.com/rahulsharma1919/LeetCoding/tree/master/3827-implement-router) |
 ## String
@@ -1104,6 +1107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2211-count-collisions-on-a-road](https://github.com/rahulsharma1919/LeetCoding/tree/master/2211-count-collisions-on-a-road) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2751-robot-collisions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2751-robot-collisions) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Number Theory
 |  |
@@ -1338,6 +1342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/rahulsharma1919/LeetCoding/tree/master/0085-maximal-rectangle) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/rahulsharma1919/LeetCoding/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/rahulsharma1919/LeetCoding/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Linked List
 |  |
@@ -1372,6 +1377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Queue
 |  |
 | ------- |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/rahulsharma1919/LeetCoding/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Binary Tree
 |  |
@@ -1392,6 +1398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/rahulsharma1919/LeetCoding/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3161-block-placement-queries](https://github.com/rahulsharma1919/LeetCoding/tree/master/3161-block-placement-queries) |
+| [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3454-separate-squares-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3454-separate-squares-ii) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3525-find-x-value-of-array-ii](https://github.com/rahulsharma1919/LeetCoding/tree/master/3525-find-x-value-of-array-ii) |
