@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2540-minimum-common-value](https://github.com/rahulsharma1919/LeetCoding/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/rahulsharma1919/LeetCoding/tree/master/2553-separate-the-digits-in-an-array) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2574-left-and-right-sum-differences](https://github.com/rahulsharma1919/LeetCoding/tree/master/2574-left-and-right-sum-differences) |
 | [2615-sum-of-distances](https://github.com/rahulsharma1919/LeetCoding/tree/master/2615-sum-of-distances) |
@@ -549,6 +550,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2402-meeting-rooms-iii](https://github.com/rahulsharma1919/LeetCoding/tree/master/2402-meeting-rooms-iii) |
 | [2463-minimum-total-distance-traveled](https://github.com/rahulsharma1919/LeetCoding/tree/master/2463-minimum-total-distance-traveled) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2747-count-zero-request-servers](https://github.com/rahulsharma1919/LeetCoding/tree/master/2747-count-zero-request-servers) |
 | [2751-robot-collisions](https://github.com/rahulsharma1919/LeetCoding/tree/master/2751-robot-collisions) |
 | [2784-check-if-array-is-good](https://github.com/rahulsharma1919/LeetCoding/tree/master/2784-check-if-array-is-good) |
@@ -838,6 +840,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/rahulsharma1919/LeetCoding/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/rahulsharma1919/LeetCoding/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/rahulsharma1919/LeetCoding/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/rahulsharma1919/LeetCoding/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2573-find-the-string-with-lcp](https://github.com/rahulsharma1919/LeetCoding/tree/master/2573-find-the-string-with-lcp) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rahulsharma1919/LeetCoding/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/rahulsharma1919/LeetCoding/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
